@@ -1,6 +1,6 @@
 You just need to install the pygame and the random libraryes, this is the command: 
 
-pip install pygame random
+pip install pygame 
 
 
 if there are problems writes on github or on my discord dm (Tronco2018)
