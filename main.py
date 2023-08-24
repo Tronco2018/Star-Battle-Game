@@ -47,12 +47,12 @@ example = pygame.Rect(50 - larghezza_example,
 
 
 # caricamento e posizionamento navicella
-navicella = pygame.image.load("Star-Battle-Game/navicella.png")
+navicella = pygame.image.load("navicella.png")
 navicella_rect = navicella.get_rect()
 navicella_rect.move_ip(100, 200)
 navicella = pygame.transform.scale(navicella, (50, 50))
 
-meteorite = pygame.image.load("Star-Battle-Game/meteorite.png")
+meteorite = pygame.image.load("meteorite.png")
 meteorite_rect = meteorite.get_rect()
 meteorite_rect.move_ip(100, 200)
 meteorite = pygame.transform.scale(meteorite, (30, 20))
